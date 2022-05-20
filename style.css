@@ -6,6 +6,9 @@ canvas {
   left: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
 
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
@@ -48,7 +51,7 @@ canvas {
 
 
 header {
-  background: var(--dark-bg);
+  background: var(--blue-bg);
   grid-column: 2 / span 5;
   font-size: 2.5rem;
   padding: 2rem;
@@ -58,7 +61,7 @@ header {
 section {
   grid-column: 2 / 8;
   padding: 1rem;
-  background: var(--dark-bg);
+  background: var(--violet-bg);
   font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: var(--spacing);
