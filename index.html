@@ -42,7 +42,7 @@
           <img src="linkedin.png" alt="HTML5 Icon" style="width:150px;height:70px;"><br>
         </a>
         <a href="https://github.com/thelostdeveloper">
-          <img src="github.png" alt="HTML5 Icon" style="width:150px;height:70px;"><br>
+          <img src="gittt.png" alt="HTML5 Icon" style="width:150px;height:70px;"><br>
         </a>
       </p>
 
@@ -96,7 +96,7 @@
         <b>Smart India Hackathon 2022</b><br>
         Selected as one of the teams from my collage to represent in smart india hackathon and will be working on the
         blockchain and security domain.<br><br>
-        <b>2⭐ on CodeChef and 3 ⭐ on Leetcode</b><br><br>
+        <b>2⭐ on CodeChef and 3⭐ on Leetcode</b><br><br>
         <b>Solved more than 450+ DSA qustions</b><br><br>
         <b>Successfully completed HacktoberFest 2020</b><br><br>
         <b>Participated in HackOn Hackathon and secured runners up rank</b>
@@ -136,13 +136,11 @@
 
   </main>
 
+  <!-- <script type="module" src="/main.js"></script> -->
+
   <script src="https://threejs.org/build/three.js"></script>
   <script src="https://unpkg.com/browse/three@0.97.0/examples/js/controls/OrbitControls.js"></script>
   <script>
-
-
-
-    // Setup
 
     const scene = new THREE.Scene();
 
@@ -200,12 +198,12 @@
 
     // Background
 
-    const spaceTexture = new THREE.TextureLoader().load('./space.jpg');
+    const spaceTexture = new THREE.TextureLoader().load('space.jpg');
     scene.background = spaceTexture;
 
     // Avatar
 
-    const jeffTexture = new THREE.TextureLoader().load('./priyanshu.png');
+    const jeffTexture = new THREE.TextureLoader().load('priyanshu.png');
 
     const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
@@ -213,8 +211,8 @@
 
     // Moon
 
-    const moonTexture = new THREE.TextureLoader().load('./moon.jpg');
-    const normalTexture = new THREE.TextureLoader().load('./normal.jpg');
+    const moonTexture = new THREE.TextureLoader().load('moon.jpg');
+    const normalTexture = new THREE.TextureLoader().load('normal.jpg');
 
     const moon = new THREE.Mesh(
       new THREE.SphereGeometry(3, 32, 32),
